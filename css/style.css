@@ -25,7 +25,7 @@
 
 /***************************CSS SLIDER INZIALE*********************************/
 .my-row{
-    min-height: 500px;
+    min-height: 500px; /* altezza di test */
 } 
 
 .bg-jumbo{
@@ -43,3 +43,16 @@
     border-radius: 15px;
 }
 /***************************CSS SLIDER INZIALE*********************************/
+
+
+
+
+/********************************CSS ECCO LA PLAYSTATION 5*********************************/
+.img-ps5-big{ /* la dimensione dell'immagine va modificata nelle media query */
+    width: 650px;
+}
+
+.img-ps5-lit, .img-joypad-ps5, .img-ears-ps5, .img-remote-ps5, .img-camera-ps5{
+    width: 100px;
+}
+
