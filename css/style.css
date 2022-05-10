@@ -14,3 +14,21 @@ header{
     padding: .7rem 0;
     padding-right: .5rem;
 }
+
+.my-nav-menu{
+    padding: .8rem;
+}
+
+.ham-menu{
+    border: 1px solid #c7c6c6;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.bars-menu{
+    width: 20px;
+}
