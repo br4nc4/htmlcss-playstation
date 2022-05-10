@@ -1,22 +1,10 @@
-header{
+/*********************************CSS NAVBAR***********************************/
+.bg-brand{
     background-color: black;
-}
-
-.my-nav-menu:not(header){
-    background-color: white;
 }
 
 .sony-logo{
     width: 80px;
-}
-
-.my-nav-brand{
-    padding: .7rem 0;
-    padding-right: .5rem;
-}
-
-.my-nav-menu{
-    padding: .8rem;
 }
 
 .ham-menu{
@@ -32,3 +20,19 @@ header{
 .bars-menu{
     width: 20px;
 }
+/*********************************CSS NAVBAR***********************************/
+.my-row{
+    min-height: 500px;
+} 
+
+.bg-jumbo{
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.return-logo{
+    width: 260px;
+}
+
+/***************************CSS SLIDER INZIALE*********************************/
