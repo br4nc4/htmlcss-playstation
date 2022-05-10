@@ -28,7 +28,7 @@
     min-height: 500px; /* altezza di test */
 } 
 
-.bg-jumbo{
+.section.bg-jumbo{
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,3 +56,21 @@
     width: 120px;
 }
 
+.img-joypad-ps5, .img-ears-ps5, .img-remote-ps5, .img-camera-ps5{
+    opacity: 0.7;
+}
+/********************************CSS ECCO LA PLAYSTATION 5*********************************/
+
+
+
+
+/********************************CSS IT TAKES TWO*********************************/
+.section.bg-takes{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.takes-logo{
+    width: 210px; 
+}
