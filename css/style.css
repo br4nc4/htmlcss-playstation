@@ -1,0 +1,16 @@
+header{
+    background-color: black;
+}
+
+.my-nav-menu:not(header){
+    background-color: white;
+}
+
+.sony-logo{
+    width: 80px;
+}
+
+.my-nav-brand{
+    padding: .7rem 0;
+    padding-right: .5rem;
+}
