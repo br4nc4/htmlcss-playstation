@@ -107,7 +107,15 @@
     background-color: #BEBCBB;
 }
 
-.banner-img{
-    
+.my-row-plus{
+    min-height: 366px;
+}
+
+.img-plus{
+    width: 500px; /* senza width statica non funziona */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 /********************************CSS PS PLUS*********************************/
