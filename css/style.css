@@ -157,6 +157,11 @@
 .img-social{
     width: 120px;
 }
+
+.social-container{
+    display: flex;
+    justify-content: center;
+}
 /********************************CSS SOCIAL*********************************/
 
 
@@ -193,6 +198,20 @@
 }
 /********************************CSS FOOTER*********************************/
 
+
+@media screen and (max-width:576px){
+    .img-social{
+        width: 225px;
+        margin-bottom: 4rem;
+        aspect-ratio: 1/1;
+    } 
+    
+    .social-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 
 @media screen and (max-width: 768px){
     .my-card-now{
