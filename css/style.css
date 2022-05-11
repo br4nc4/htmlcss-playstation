@@ -194,15 +194,8 @@
 /********************************CSS FOOTER*********************************/
 
 
-@media screen and (max-width: 576px){
-    .my-card-now img{
+@media screen and (max-width: 768px){
+    .my-card-now{
         display: none;
     }
 }
-
-
-@media screen and (max-width: 2000px) {
-    img{    
-    width:200px;
-    background: red;}
-    }
