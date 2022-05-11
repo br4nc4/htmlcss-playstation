@@ -187,4 +187,12 @@
 .my-card-footer ul{
     list-style: none;
 }
+
+.my-card-footer span{
+    text-decoration: underline;
+}
+
+.sie-logo img{
+    width: 150px;
+}
 /********************************CSS FOOTER*********************************/
