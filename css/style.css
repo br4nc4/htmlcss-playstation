@@ -166,3 +166,21 @@
     width: 140px;
 }
 /********************************CSS SOCIAL*********************************/
+
+
+
+
+/********************************CSS FOOTER*********************************/
+.bg-footer{
+    background-color: #00439C;
+}
+
+.region-footer svg{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.region-footer p{
+    margin-bottom: 0;
+}
+/********************************CSS FOOTER*********************************/
