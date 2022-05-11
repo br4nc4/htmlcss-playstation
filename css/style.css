@@ -198,4 +198,14 @@
     .my-card-now{
         display: none;
     }
+
+    .img-plus{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .padding-container{
+        padding: 2rem 0; /* soluzione momentanea manca settare padding al testo */
+    }
 }
