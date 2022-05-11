@@ -201,6 +201,10 @@
 /********************************CSS FOOTER*********************************/
 
 
-
+@media screen and (max-width: 576px){
+    .img-plus{
+        display: none;
+    }
+}
 
 
