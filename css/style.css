@@ -183,4 +183,8 @@
 .region-footer p{
     margin-bottom: 0;
 }
+
+.my-card-footer ul{
+    list-style: none;
+}
 /********************************CSS FOOTER*********************************/
