@@ -122,16 +122,14 @@
     background-color: #BEBCBB;
 }
 
-.my-row-plus{
-    min-height: 366px;
-} 
-
 .img-plus{
-    width: 500px; /* senza width statica non funziona */
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
+}
+
+.img-plus img{
     height: 100%;
 }
 /********************************CSS PS PLUS*********************************/
