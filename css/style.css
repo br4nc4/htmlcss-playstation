@@ -148,13 +148,6 @@
     background-color: #161C3B;
 }
 
-.logo-now{
-    width: 300px;
-}
-
-.img-now{
-    width: 600px;
-}
 /********************************CSS PS MOW*********************************/
 
 
@@ -202,7 +195,7 @@
 
 
 @media screen and (max-width: 576px){
-    .img-plus{
+    .my-card-now img{
         display: none;
     }
 }
