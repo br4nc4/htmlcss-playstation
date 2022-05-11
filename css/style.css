@@ -20,6 +20,24 @@
 .bars-menu{
     width: 20px;
 }
+
+.menu-triangle{
+    width: 11px;
+}
+
+.my-nav-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.my-nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.my-nav-menu svg{
+    width: 20px;
+}
 /*********************************CSS NAVBAR***********************************/
 
 
