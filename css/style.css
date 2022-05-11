@@ -201,3 +201,8 @@
 }
 
 
+@media screen and (max-width: 2000px) {
+    img{    
+    width:200px;
+    background: red;}
+    }
