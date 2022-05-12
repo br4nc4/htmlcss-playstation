@@ -78,8 +78,12 @@ header{
 
 
 /********************************CSS ECCO LA PLAYSTATION 5*********************************/
-.img-joypad-ps5, .img-ears-ps5, .img-remote-ps5, .img-camera-ps5{
+.img-opacity{
     opacity: 0.7;
+}
+
+.w-card-mq{
+    width: 50%;
 }
 /********************************CSS ECCO LA PLAYSTATION 5*********************************/
 
@@ -218,6 +222,10 @@ header{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .w-card-mq{
+        width: 100%;
     }
 }
 
