@@ -46,6 +46,10 @@ header{
 .nav-list{
     display: flex;
 }
+
+.card-search{
+    margin-left: 2rem;
+}
 /*********************************CSS NAVBAR***********************************/
 
 
@@ -286,8 +290,6 @@ header{
 
 
 /****************************CSS MEDIA QUERY********************************/
-
-
 @media screen and (max-width:576px){
     .img-social{
         width: 225px;
@@ -354,5 +356,14 @@ header{
         padding-top: 10rem;
     }
 }
+/****************************CSS MEDIA QUERY********************************/
 
+
+
+
+/********************************BUTTONS************************************/
+.btn-secondary.my-first-btn{
+    background-color: #363636;
+    border-radius: 25px;
+}
 
