@@ -72,6 +72,14 @@ header{
 .img-list{
     border-radius: 15px;
 }
+
+.jumbo-pd{
+    padding-top: 10rem;
+}
+
+.jumbo-fnt{
+    font-size: 42px;
+}
 /***************************CSS SLIDER INZIALE*********************************/
 
 
