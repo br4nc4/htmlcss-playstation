@@ -98,6 +98,7 @@ header{
 .mb-card-ps5{
     padding-bottom: 4rem
 }
+
 /********************************CSS ECCO LA PLAYSTATION 5*********************************/
 
 
@@ -253,6 +254,10 @@ header{
 
     .w-card-mq{
         width: 100%;
+    }
+
+    .txt-ps5{
+        display: none;
     }
 }
 
