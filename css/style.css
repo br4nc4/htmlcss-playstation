@@ -138,13 +138,25 @@ header{
 .section.bg-news{
     background-color: #1F1F1F;
 }
+
+.news-pd{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
 /********************************CSS NUOVE USCITE*********************************/
 
 
 
 
 /********************************CSS ESPLORA PS4*********************************/
+.explore-pd{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 
+.my-card-ps4{
+    padding-bottom: 5rem;
+}
 /********************************CSS ESPLORA PS4*********************************/
 
 
@@ -166,7 +178,7 @@ header{
 }
 
 .padding-container{
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 /********************************CSS PS PLUS*********************************/
 
@@ -269,7 +281,7 @@ header{
 
 @media screen and (max-width: 992px){
     .padding-container{
-        padding: 2rem 0; /* soluzione momentanea manca settare padding al testo */
+        padding: 2rem 0;
     }
 }
 
@@ -288,4 +300,5 @@ header{
         padding-top: 10rem;
     }
 }
+
 
