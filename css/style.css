@@ -11,9 +11,7 @@
     border: 1px solid #c7c6c6;
     width: 50px;
     height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
     border-radius: 4px;
 }
 
@@ -37,6 +35,10 @@
 
 .my-nav-menu svg{
     width: 20px;
+}
+
+.nav-list{
+    display: flex;
 }
 /*********************************CSS NAVBAR***********************************/
 
@@ -227,4 +229,15 @@
     .padding-container{
         padding: 2rem 0; /* soluzione momentanea manca settare padding al testo */
     }
+
+    .nav-list{
+        display: none;
+    }
+
+    .ham-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
