@@ -93,6 +93,7 @@ header{
 
 .w-card-mq{
     width: 50%;
+    padding-bottom: .8rem;
 }
 
 .mb-card-ps5{
@@ -121,7 +122,12 @@ header{
 }
 
 .slider{
-    min-height: 500px;
+    min-height: 600px;
+}
+
+.takes-pd{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 /********************************CSS IT TAKES TWO*********************************/
 
