@@ -362,8 +362,17 @@ header{
 
 
 /********************************BUTTONS************************************/
-.btn-secondary.my-first-btn{
+.btn-secondary.my-btn-login{
     background-color: #363636;
+    border-radius: 25px;
+}
+
+.btn-danger.my-btn-jumbo{
+    background-color: #CD3D0F;
+    border-radius: 25px;
+}
+
+.btn-primary.my-btn{
     border-radius: 25px;
 }
 
