@@ -254,8 +254,30 @@ header{
     text-decoration: underline;
 }
 
+.my-card-ft{
+    padding-bottom: 3rem;
+}
+
+.my-card-ftt{
+    padding-top: 3rem;
+}
+
 .sie-logo img{
     width: 120px;
+    padding-bottom: .8rem;
+}
+
+.ft-pd{
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.ps-foot-pd{
+    padding-bottom: 2.5rem;
+}
+
+.txt-foot{
+    font-size: 14px;
 }
 /********************************CSS FOOTER*********************************/
 
