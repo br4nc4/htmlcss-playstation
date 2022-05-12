@@ -1,7 +1,7 @@
 header{
     position: sticky;
     z-index: 3;
-    top: -15px;
+    top: -38px;
 }
 
 /*********************************CSS NAVBAR***********************************/
@@ -243,7 +243,9 @@ header{
     .padding-container{
         padding: 2rem 0; /* soluzione momentanea manca settare padding al testo */
     }
+}
 
+@media screen and (max-width: 1200px){
     .nav-list{
         display: none;
     }
