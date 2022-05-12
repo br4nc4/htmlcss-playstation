@@ -216,6 +216,12 @@ header{
 .social-container{
     display: flex;
     justify-content: center;
+    padding-top: 4rem;
+}
+
+.social-pd{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
 }
 /********************************CSS SOCIAL*********************************/
 
@@ -258,10 +264,12 @@ header{
 
 
 /****************************CSS MEDIA QUERY********************************/
+
+
 @media screen and (max-width:576px){
     .img-social{
         width: 225px;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
         aspect-ratio: 1/1;
     } 
     
@@ -269,6 +277,11 @@ header{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .social-pd{
+        padding-top: 4rem;
+        padding-bottom: 2rem;
     }
 }
 
@@ -291,6 +304,10 @@ header{
 
     .my-card-store{
         padding-top: 3rem;
+    }
+
+    .psnow-pd{
+        padding: 3rem;
     }
 }
 
