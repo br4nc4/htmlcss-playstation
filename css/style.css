@@ -185,7 +185,14 @@ header{
 
 
 /********************************CSS PS STORE*********************************/
+.sales-pd{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 
+.my-card-store{
+    padding-top: 4rem;
+}
 /********************************CSS PS STORE*********************************/
 
 
@@ -247,6 +254,10 @@ header{
 /********************************CSS FOOTER*********************************/
 
 
+
+
+
+/****************************CSS MEDIA QUERY********************************/
 @media screen and (max-width:576px){
     .img-social{
         width: 225px;
@@ -276,6 +287,10 @@ header{
 
     .txt-ps5{
         display: none;
+    }
+
+    .my-card-store{
+        padding-top: 3rem;
     }
 }
 
