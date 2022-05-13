@@ -365,17 +365,85 @@ header{
 .btn-secondary.my-btn-login{
     background-color: #363636;
     border-radius: 25px;
+    position: relative;
 }
 
 .btn-danger.my-btn-jumbo{
     background-color: #CD3D0F;
     border-radius: 25px;
+    position: relative;
 }
 
 .btn-primary.my-btn{
     border-radius: 25px;
+    position: relative;
 }
 
 .btn-light.my-btn{
     border-radius: 25px;
+    position: relative;
+}
+
+.btn-primary:after{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 25px;
+    border: 2px solid white;
+    opacity: 0;
+}
+
+.btn-primary:hover:after{
+    opacity: 1;
+}
+
+.btn-danger:after{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 25px;
+    border: 2px solid white;
+    opacity: 0;
+}
+
+.btn-danger:hover:after{
+    opacity: 1;
+}
+
+.btn-secondary:after{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 25px;
+    border: 2px solid white;
+    opacity: 0;
+}
+
+.btn-secondary:hover:after{
+    opacity: 1;
+}
+
+.btn-light:after{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 25px;
+    border: 2px solid #0d6efd;
+    opacity: 0;
+}
+
+.btn-light:hover:after{
+    opacity: 1;
 }
